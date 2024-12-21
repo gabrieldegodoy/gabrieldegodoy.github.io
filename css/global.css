@@ -1,19 +1,5 @@
-@font-face {
-  font-family: "MinhaFonte";
-  src: url("../../Fira_Sans/FiraSans-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "MinhaFonte";
-  src: url("../../Fira_Sans/FiraSans-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
 body {
-  font-family: "MinhaFonte", Arial, sans-serif;
+  font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
   color: #141414;
 }
