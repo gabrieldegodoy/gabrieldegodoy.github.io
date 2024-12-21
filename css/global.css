@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "MinhaFonte";
+  src: url("../../Fira_Sans/FiraSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MinhaFonte";
+  src: url("../../Fira_Sans/FiraSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "MinhaFonte", Arial, sans-serif;
+  margin: 0px;
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.subtitulo {
+  text-transform: uppercase;
+  font-size: 8rem;
+  line-height: 1;
+  word-break: break-all;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    text-transform: capitalize;
+    max-width: initial !important;
+    font-size: 3rem;
+  }
+}
